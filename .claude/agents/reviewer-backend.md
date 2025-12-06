@@ -1,5 +1,5 @@
 ---
-name: backend-reviewer
+name: reviewer-backend
 description: Expert backend code reviewer specializing in API design, business logic, data validation, and server-side architecture
 tools: Read, Grep, Glob, Bash
 model: sonnet

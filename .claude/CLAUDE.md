@@ -61,6 +61,27 @@ data/                  # JSONデータファイル
 - 管理者: `00000000-0000-0000-0000-000000000001`
 - ユーザー1: `00000000-0000-0000-0000-000000000002` (デフォルト)
 
+## Claude Code 拡張機能
+
+### カスタムエージェント
+プロジェクトには以下の専門エージェントが用意されています：
+- **planner-test**: テスト戦略・テストケース設計の専門家
+- **reviewer-backend**: バックエンドコードレビュー専門家
+- **reviewer-devops**: DevOps/インフラレビュー専門家
+- **reviewer-frontend**: React/Next.js コードレビュー専門家
+- **reviewer-performance**: パフォーマンス最適化専門家
+- **reviewer-security**: セキュリティレビュー専門家
+
+使い方の詳細: `.claude/AGENTS_README.md` を参照
+
+### Hooks
+プロンプトと実行結果を自動採点するhooksを設定済み：
+- **UserPromptSubmit**: プロンプトの品質を10点満点で採点
+- **PostToolUse**: ツール実行結果を10点満点で採点
+- ログは `.claude/scoring/` に保存（gitignore対象）
+
+使い方の詳細: `.claude/HOOKS_README.md` を参照
+
 ## 開発メモ
 <!-- ここに開発中の気づきや改善点などを記録 -->
 

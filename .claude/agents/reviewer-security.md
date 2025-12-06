@@ -1,5 +1,5 @@
 ---
-name: security-reviewer
+name: reviewer-security
 description: Expert security code reviewer specializing in OWASP Top 10, vulnerability detection, secure coding practices, and authentication/authorization
 tools: Read, Grep, Glob, Bash
 model: sonnet

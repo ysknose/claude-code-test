@@ -34,6 +34,7 @@ export interface User {
   name: string; // ユーザー名
   email: string; // メールアドレス
   role: "user" | "admin"; // 役割
+  passwordHash: string; // パスワードハッシュ
 }
 
 /**

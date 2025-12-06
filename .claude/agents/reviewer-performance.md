@@ -1,5 +1,5 @@
 ---
-name: performance-reviewer
+name: reviewer-performance
 description: Expert performance code reviewer specializing in algorithm optimization, rendering performance, caching strategies, and scalability
 tools: Read, Grep, Glob, Bash
 model: sonnet

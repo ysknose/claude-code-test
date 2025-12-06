@@ -40,3 +40,7 @@ next-env.d.ts
 
 # bun
 bun.lockb
+
+# claude code
+.claude/settings.local.json
+.claude/scoring/

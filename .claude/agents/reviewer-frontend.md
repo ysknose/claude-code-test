@@ -1,5 +1,5 @@
 ---
-name: frontend-reviewer
+name: reviewer-frontend
 description: Expert frontend code reviewer specializing in React, Next.js, performance optimization, accessibility, and UX patterns
 tools: Read, Grep, Glob, Bash
 model: sonnet

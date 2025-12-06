@@ -1,5 +1,5 @@
 ---
-name: devops-reviewer
+name: reviewer-devops
 description: Expert DevOps and infrastructure code reviewer specializing in configuration management, CI/CD, monitoring, deployment, and operational excellence
 tools: Read, Grep, Glob, Bash
 model: sonnet
